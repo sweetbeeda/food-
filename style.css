@@ -161,6 +161,7 @@
     background-color: var(--light-color);
     color: white;
     margin-bottom: 0px;
+    width: 100%;
   }
   .container-footer h1 {
     text-align: center;
