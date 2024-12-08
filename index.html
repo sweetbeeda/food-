@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dassana's veg Recipes-Indian vegetarian Recipes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -13,15 +15,16 @@
 
         <!-- the header of the website starts from here  -->
         <header>
-            <div class="container-heading">
+            <div class="container-heading" id="home">
                 <nav>
                     <h1><span>dassana's</span> veg Recipes</h1>
-                    <ul>
-                        <li>home</li>
-                        <li>Recipes index</li>
-                        <li>cookbook</li>
-                        <li>about</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg"
+                    <div class="hamburgerMenu"><i class=" fa fa-bars"></i></div>
+
+                    <ul class=" menu-show show ">
+                        <li> <a href="#home">home</a></li>
+                        <li> <a href="#index">Recipes index</a> </li>
+                        <li> <a href="#callme">contact US</a></li>
+                        <li id="src"><svg xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                 <path
                                     d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
@@ -33,7 +36,7 @@
         <!-- the header section were ends from here  -->
 
         <!-- the main section were start from here  -->
-        <div class="container-main">
+        <div class="container-main" id="index">
             <h1>reader favorites</h1>
             <p>our favorite and our reader's favorites!</p>
 
@@ -94,7 +97,7 @@
         <!-- the main section were ends from her -->
 
         <footer>
-            <div class="container-footer">
+            <div class="container-footer" id="callme">
                 <h1><span>dasanna's </span> <br>veg recipes</h1>
 
                 <div class="contactSection">
@@ -120,6 +123,9 @@
         </footer>
         <!-- the footer section were ends from here  -->
     </div>
+
+    <!-- adding the javascript link here  -->
+     <script src="/food-/index.js"></script>
 </body>
 
 </html>
