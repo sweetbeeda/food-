@@ -343,21 +343,21 @@
     margin: 5px;
     font-size: 24px;
   }
-  .container-footer span{
+  .container-footer span {
     text-transform: uppercase;
     letter-spacing: 3px;
   }
 
-  .contactSection{
+  .contactSection {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 20px;
   }
 
-  .contactSection p{
+  .contactSection p {
     padding-right: 20px;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
     margin: 10px;
     text-transform: capitalize;
     font-size: 12px;
@@ -366,7 +366,6 @@
     font-weight: 500;
     padding-bottom: 7px;
     margin: 12px;
-
   }
   .ooo p {
     text-align: center;
